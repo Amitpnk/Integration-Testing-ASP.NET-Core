@@ -55,7 +55,7 @@ namespace CustomerProject.IntegrationTest.Fixtures
             }
         }
 
-        public async Task IAsyncLifetime.DisposeAsync()
+        async Task IAsyncLifetime.DisposeAsync()
         {
             await _dbContainer.StopAsync();
         }
