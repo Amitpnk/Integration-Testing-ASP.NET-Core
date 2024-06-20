@@ -6,14 +6,9 @@ namespace CustomerProject.WebApi.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
-public class CustomerController : ControllerBase
+public class CustomerController(ICustomerService customerService) : ControllerBase
 {
-    private readonly ICustomerService _customerService;
-
-    public CustomerController(ICustomerService customerService)
-    {
-        _customerService = customerService;
-    }
+    private readonly ICustomerService _customerService = customerService;
 
     [HttpGet("GetAllAsync")]
     public async Task<IActionResult> GetAllCustomersAsync()
