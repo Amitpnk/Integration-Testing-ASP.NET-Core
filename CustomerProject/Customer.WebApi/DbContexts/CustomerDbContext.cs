@@ -1,8 +1,8 @@
-﻿using Customer.WebApi.Models;
+﻿using CustomerProject.WebApi.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 
-namespace Customer.WebApi.DbContexts;
+namespace CustomerProject.WebApi.DbContexts;
 public class CustomerDbContext : DbContext
 {
     public CustomerDbContext(DbContextOptions<CustomerDbContext> options) : base(options)

@@ -1,4 +1,4 @@
-﻿namespace Customer.WebApi.Models;
+﻿namespace CustomerProject.WebApi.Models;
 
 public class Customers
 {

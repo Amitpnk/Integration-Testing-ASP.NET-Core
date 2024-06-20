@@ -1,8 +1,8 @@
-﻿using Customer.WebApi.Models;
-using Customer.WebApi.Services;
+﻿using CustomerProject.WebApi.Models;
+using CustomerProject.WebApi.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Customer.WebApi.Controllers;
+namespace CustomerProject.WebApi.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]

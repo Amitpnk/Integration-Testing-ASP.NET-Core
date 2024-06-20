@@ -1,5 +1,5 @@
-using Customer.WebApi.DbContexts;
-using Customer.WebApi.Services;
+using CustomerProject.WebApi.DbContexts;
+using CustomerProject.WebApi.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

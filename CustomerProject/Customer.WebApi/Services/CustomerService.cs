@@ -1,8 +1,8 @@
-﻿using Customer.WebApi.DbContexts;
-using Customer.WebApi.Models;
+﻿using CustomerProject.WebApi.DbContexts;
+using CustomerProject.WebApi.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Customer.WebApi.Services
+namespace CustomerProject.WebApi.Services
 {
     public class CustomerService : ICustomerService
     {

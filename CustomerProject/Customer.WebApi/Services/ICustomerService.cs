@@ -1,6 +1,6 @@
-﻿using Customer.WebApi.Models;
+﻿using CustomerProject.WebApi.Models;
 
-namespace Customer.WebApi.Services;
+namespace CustomerProject.WebApi.Services;
 
 public interface ICustomerService
 {
